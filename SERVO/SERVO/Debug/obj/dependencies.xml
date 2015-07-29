@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\SERVO /I..\..\..\..\..\Users\Saff\Desktop\STM32 /I..\..\..\workspace\SERVO\cmsis_boot /I..\..\..\..\..\Users\Saff\AppData\Local /I..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.515 /I..\..\..\workspace\SERVO\cmsis /I..\..\..\workspace /I..\..\..\..\..\Users\Saff\AppData\Local\Temp /I..\..\..\workspace\SERVO\cmsis_lib /I..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.904 /I..\..\..\..\..\Users\Saff\Desktop /I..\..\..\workspace\SERVO\cmsis_lib\include /I..\..\..\..\..\Users\Saff\Desktop\STM32\drivers">
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="14cf4db198c">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="14cf4db159f">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\defines.h" lastModified="14927dc8f9d">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_pwm.h" lastModified="14c37d0a9c0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_timer_properties.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14cf4db119d">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_pwm.c" lastModified="14c33f5937f">
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_pwm.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14cf4db119c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14cf4db2b1f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="14cf4db1168">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="14cf4db678a">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="14cf4db1581">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="14cf4db2b1e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.515\tm_stm32f4_timer_properties.h" lastModified="149f34a3681">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.904\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14cf4db198a">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_gpio.h" lastModified="14c8b4361bb">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\defines.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.515\tm_stm32f4_servo.h" lastModified="14ca96727d5">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.904\defines.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_pwm.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.515\tm_stm32f4_timer_properties.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_timer_properties.h" lastModified="14c4386ad42">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14cf4db11c1">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.515\tm_stm32f4_timer_properties.c" lastModified="1488e449b75">
+         <include file="..\..\..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.515\tm_stm32f4_timer_properties.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14cf4db1190">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14cf4db117b">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.515\tm_stm32f4_servo.c" lastModified="14ca96730b5">
+         <include file="..\..\..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.515\tm_stm32f4_servo.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="14cf4db1988">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="14cf4db11c0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\AppData\Local\Temp\Rar$DRa0.904\defines.h" lastModified="14927dc8f9d">
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\SERVO\cmsis /I..\..\..\workspace\SERVO /I..\..\..\..\..\Users\Saff\Desktop\STM32 /I..\..\..\workspace /I..\..\..\workspace\SERVO\cmsis_lib /I..\..\..\workspace\SERVO\cmsis_boot /I..\..\..\..\..\Users\Saff\Desktop /I..\..\..\workspace\SERVO\cmsis_lib\include /I..\..\..\..\..\Users\Saff\Desktop\STM32\drivers">
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_servo.h" lastModified="14ca96727d5">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\defines.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_pwm.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_timer_properties.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\defines.h" lastModified="14927dc8f9d">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_servo.c" lastModified="14ca96730b5">
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_servo.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_pwm.h" lastModified="14c37d0a9c0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_timer_properties.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14cf4db119d">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14cf4db119c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14cf4db2b1f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="14cf4db1168">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="14cf4db2b1e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_gpio.h" lastModified="14c8b4361bb">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\defines.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\tm_stm32f4_timer_properties.h" lastModified="14c4386ad42">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Saff\Desktop\STM32\drivers\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14cf4db11c1">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14cf4db1190">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14cf4db117b">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="14cf4db11c0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>
